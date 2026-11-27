@@ -1,0 +1,18 @@
+<div class="loanGuaranteePersonList my-3">
+    <!-- 第一組：把「連帶保證人」與「住址」包在同一個 .icPersonGroup 內，共用程式才能帶出 .icPersonAddress -->
+    <div class="icPersonGroup loanGuRow" data-types="6">
+        <div class="form-group form-inline my-3">
+            <span class="mr-2">連帶保證人：</span>
+            <select class="form-control mr-2 icPerson">
+                <option value="">請選擇</option>
+            </select>
+            <input type="text" class="form-control col-3 icPersonName" value="" disabled>
+            <button type="button" class="ml-2 btn btn-info addGuPersonAddressBtn" onclick="addGuPersonAddressBtn(this)">+</button>
+        </div>
+
+        <div class="form-group form-inline my-2">
+            <span class="mr-2">住址：</span>
+            <input type="text" class="form-control col-9 icPersonAddress" disabled>
+        </div>
+    </div>
+</div>
