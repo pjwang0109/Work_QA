@@ -1,2 +1,5 @@
 
 那我要寫 icLoanReceiptCollect請參考icJointGuaranteeIndefiniteCollect幫我寫
+
+暫存要包含 .loanAmount .loanTextbox .loanRate .icPerson
+然後 icPerson是陣列 他會因為addGuPersonAddressBtn新增[連帶保證人和住址]區塊
